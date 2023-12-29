@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FigSmart</title>
+  </head>
+  <body>
+    <h1>Brainstorm with FigSmart</h1>
+
+    <p>Brainstorm with FigSmart; An intelligent design copilot.</p>
+
+    <label for="api-key">
+      Prompt
+      <input
+        required
+        id="api-key"
+        type="text"
+        placeholder="Enter your Open AI's API Key"
+      />
+    </label>
+
+    <label for="user-prompt">
+      Prompt
+      <input
+        required
+        id="user-prompt"
+        type="text"
+        placeholder="How can i design my app?"
+      />
+    </label>
+
+    <button id="create-button">Create</button>
+
+    <div id="result-images"></div>
+
+    <footer>
+     By Ruby: <a href="wwww.google.com" target="_blank">GitHub.</a>
+    </footer>
+
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: 700;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      input {
+        font-size: 14px;
+        margin-top: 3px;
+        border-style: none;
+        border-bottom-style: solid;
+        outline: none;
+        font-weight: 600;
+      }
+
+      label {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 75%;
+        font-weight: 600;
+      }
+
+      p {
+        color: white;
+      }
+    </style>
+
+    <script type="module" src="./code.js"></script>
+  </body>
+</html>
